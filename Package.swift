@@ -16,7 +16,7 @@ let package = Package(
             targets: ["MagicSDK"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/magiclabs/Web3.swift.git", from:"1.1.0"),
+        .package(url: "https://github.com/rockshassa/Web3.swift.git", from:"1.1.0"),
         .package(url: "https://github.com/mxcl/PromiseKit.git", from:"6.16.2")
     ],
     targets: [
